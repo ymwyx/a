@@ -1,0 +1,15 @@
+{
+  "name": "postnet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jQuery": "^1.7.4"
+  }
+}

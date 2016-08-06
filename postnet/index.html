@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>POST-NET</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="connect.js"></script>
+    <script src="node_modules/jQuery/tmp/jquery.js"></script>
+    <link rel="stylesheet" href="src/bootstrap-3.3.5-dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="src/bootstrap-3.3.5-dist/css/bootstrap-theme.css.map">
+    <link rel="stylesheet" href="src/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="src/bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="src/bootstrap-3.3.5-dist/css/bootstrap.css.map">
+    <link rel="stylesheet" href="src/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+
+</head>
+<body>
+<header id="head">
+    <h1 class="text-center">POST-NET</h1>
+</header>
+<section id ='translator'>
+    <form id="translatorForm">
+        <lable for="input_code" class="col-sm-2 control-label" class="text-center">input code</lable>
+        <div class="col-sm-10">
+            <!--class="form-control"-->
+            <input type="text" id="input_code" placeholder="please input code here">
+            <span id="errorMessage">error</span>
+        </div>
+
+        <br>
+    </form>
+    <br>
+    <br>
+    <br>
+    <div class="col-sm-2 control-label">
+        <span >result:</span>
+        <br>
+        <div id="a">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br><br><br>
+    <lable>
+        <input type="radio"id="barTozip" class="checkbox-inline" form="translator" name="translatorBtn" value="toZip" checked/>
+        barcode To zipcode
+    </lable>
+    <br>
+    <br>
+    <lable>
+        <input type="radio"id="zipToBar" class="checkbox-inline" form="translator" name="translatorBtn" value="toBar" checked/>
+        zipcode To barcode
+    </lable>
+    <br>
+    <br>
+    <br>
+    <button id="submit" type="button" class="btn btn-primary" form="translator">ok</button>
+</section>
+<br>
+<br>
+<br>
+<section id="history">
+    <h2>History</h2>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>
+                code
+            </th>
+            <th>
+                result
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                12333
+            </td>
+            <td>
+                ||:::||
+            </td>
+        </tr>
+        <tr>
+            <td>
+                12333
+            </td>
+            <td>
+                ||:::||
+            </td>
+        </tr>
+        <tr>
+            <td>
+                12333
+            </td>
+            <td>
+                ||:::||
+            </td>
+        </tr>
+        <tr>
+            <td>
+                12333
+            </td>
+            <td>
+                ||:::||
+            </td>
+        </tr>
+        <tr>
+            <td>
+                12333
+            </td>
+            <td>
+                ||:::||
+            </td>
+        </tr>
+        <tr>
+            <td>
+                12333
+            </td>
+            <td>
+                ||:::||
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+</section>
+
+</body>
+</html>
